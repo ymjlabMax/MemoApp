@@ -1,6 +1,8 @@
 package com.example.mymemo;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,9 +13,6 @@ public class MainActivity extends AppCompatActivity {
 
     Button write_btn;
     private final int REQUEST_TEST = 200;
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(i, REQUEST_TEST);
             }
         });
+
+
 
 
     }

@@ -41,7 +41,7 @@ public class WriteActivity extends AppCompatActivity {
 
             }
         });
-
+        /*저장 버튼*/
         save_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
